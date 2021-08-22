@@ -3,9 +3,9 @@
 	--primary:#FF9900;
 	--dark:#555555;
 	--pure:#FFFFFF;
-	--light:#F2F2F2;
-	--blue:#4285F4;
 	--ternary:#898989;
+	--light:#F2F2F2;
+	--blue:#4285F4 ;
 }
 body{
 	height:4800px;
@@ -442,7 +442,7 @@ footer .rights{
 @media (max-width:1008px)
 {
 	body {
-    height:4400px;
+    height:4500px;
 }
 	header #main-nav
 	{
@@ -490,36 +490,31 @@ section.projects .card-wrapper {
     grid-gap:3rem;
 }
 section.projects {
-    height:730px;
+    height:1065px;
 }
 section.contact .card-wrapper .card img{
-	margin-bottom:1.5rem;
-    margin-top:-1rem;
-	height:55px;
-	width:55px;
+	margin-bottom:2rem;
+	height:60px;
+	width:60px;
 }
 section.contact .card-wrapper .card h1{
-	font-weight:300;
+	font-weight:400;
    margin-bottom:1rem;
 }
 section.contact .card-wrapper .card h6{
-	font-size:0.8rem;
+	font-size:0.9rem;
 	color: #dc7633;
 	font-weight:400;
 	margin-bottom:3rem;
 }
 footer {
     padding-top:2rem;
-    height:230px;
+    height:300px;
 }
 footer .footer-icon a img {
-    height:30px;
-    width:30px;
+    height:40px;
+    width:40px;
  }
- footer .rights 
- {
-     font-size:0.8rem;
-}
 }
 @media (max-width:576px){
 	.hero{
@@ -530,7 +525,7 @@ footer .footer-icon a img {
 	}
 	.hero .right{
 		position:fixed;
-		top:430px;
+		top:410px;
 		 margin-top:-22rem;
 		padding:0 1.2rem;
 		background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
@@ -541,9 +536,9 @@ footer .footer-icon a img {
 .hero .right h1{
     font-size:2.2rem;
 }
-	.hero .right p{
+	.hero .right p {
     line-height: 1.6;
-    margin-top:11.5rem;
+    margin-top:10rem;
     margin-bottom:1rem;
 }
 	.hero left:
@@ -556,7 +551,7 @@ footer .footer-icon a img {
 		height:280px;
 	}
 	header {
-    height:570px;
+    height:540px;
 }
 .about-inner-wrap
 {
@@ -572,57 +567,36 @@ section.about .about-me-img {
 .about .right{
 	text-align:center;
 }
-section.about .social{
+section.about .social {
     justify-content: center;
 }
-section{
+section {
     padding:4rem 0;
 }
 section.education .card-wrapper{
 	grid-template-columns:repeat(1, 1fr);
 }
-section.education .card-wrapper .card {
- margin-left:2rem;
- margin-right:2rem;
- margin-bottom:-1rem;
-    }
 section.education{
-    height:1020px;
+    height:1000px;
 }
 section.skills .card-wrapper {
     grid-template-columns:repeat(2, 1fr);
-    margin-top:-1.5rem;
 }
-section.skills .card-wrapper .card{
-	margin-left:0.7rem;
-	margin-right:0.7rem;
-	padding:1rem 1.0rem;
-}
-section.skills .card-wrapper .card h1 {
-    font-weight: 400;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    margin-top:1rem;
-}
-section.skills{
-    height:640px;
+section.skills {
+    height:750px;
     clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 96%, 0 100%);
-}
-section.projects{
-	height:1370px;
 }
 section.projects .card-wrapper{
 	grid-template-columns: repeat(1, 1fr);
 }
-section.projects .card-wrapper .card{
-	margin:0.5rem 2rem;
-}
 
+section.projects {
+    height:1900px;
+}
 section.contact .card-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-gap:1rem;
 }
-
 section.contact .card-wrapper .card img{
 	margin-bottom:0.5rem;
 	margin-top:-2rem;
@@ -630,42 +604,26 @@ section.contact .card-wrapper .card img{
 section.contact .card-wrapper .card h1{
 	font-weight:350;
    margin-bottom:0.5rem;
-   font-size:0.8rem;
+   font-size:1rem;
 }
 section.contact .card-wrapper .card h6{
-	font-size:0.5rem;
+	font-size:0.6rem;
 	color:#dc7633;
 	font-weight:400;
 	margin-bottom:3rem;
 }
-section.contact input{
-	border-radius:1rem;
-}
 footer {
-    padding-top:0.2rem;
-    height:100px;
+    padding-top:2rem;
+    height:200px;
 }
 footer .footer-icon a img {
-    height:15px;
-    width:15px;
-    margin-right:0.4rem;
+    height:25px;
+    width:25px;
  }
  footer .rights {
-    margin-top:0.3rem;
-    font-size:0.4rem;
+    color: var(--pure);
+    margin-top: 1rem;
+    font-size:0.7rem;
 }
-.btn-secondary{
-	width:120px;
-	height:30px;
-	font-size:1rem;
-	border-radius:0.5rem;
-}
-.btn 
-{
-	width:130px;
-	height:45px;
-	font-size:0.6rem;
-	font-weight:2rem;
-		border-radius:0.5rem;
-}
+
 }
